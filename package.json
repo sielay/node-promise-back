@@ -1,0 +1,32 @@
+{
+	"name": "node-promise-back",
+	"version": "1.0.0",
+	"description": "Allow to easily use promises wherever you should use standard callback",
+	"main": "index.js",
+	"scripts": {
+		"test": "mocha"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/sielay/node-promise-back.git"
+	},
+	"keywords": [
+		"promise",
+		"callback",
+		"q",
+		"bluebird"
+	],
+	"author": "lukaszsielski@gmail.com",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/sielay/node-promise-back/issues"
+	},
+	"homepage": "https://github.com/sielay/node-promise-back#readme",
+	"devDependencies": {
+		"bluebird": "^2.10.1",
+		"mocha": "^2.3.3",
+		"q": "^1.4.1",
+		"should": "^7.1.0",
+		"should-promised": "^0.3.1"
+	}
+}
